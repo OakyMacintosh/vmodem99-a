@@ -1,0 +1,19 @@
+pkgbase = vmodem99a
+	pkgdesc = The modem-like internet tool.
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/oakymacintosh/vmodem99-a
+	arch = any
+	license = MIT
+	makedepends = git
+	makedepends = rust
+	makedepends = cargo
+	makedepends = python
+	depends = bash
+	depends = curl
+	depends = openssh
+	depends = wget
+	source = git+https://github.com/oakymacintosh/vmodem99-a
+	sha256sums = SKIP
+
+pkgname = vmodem99a
